@@ -1,18 +1,9 @@
-Statistical_Inference-_part2.html
-========================================================
-title: "Statistical inference - part 2"
+---
+title: "Statistical Inference- Part-2"
 author: "Radha"
 date: "22 November 2015"
-
-For more details on authoring R presentations click the
-**Help** button on the toolbar.
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-One Plot
-
+output: html_document
+---
 #Here's a quick analysis of the ToothGrowth data within the R datasets package. The data is set of 60 observations, length of odontoblasts (teeth) in each of 10 guinea pigs at each of three dose levels of Vitamin C (0.5, 1 and 2 mg) with each of two delivery methods (orange juice or ascorbic acid).
 
 ```{r, echo=FALSE}
